@@ -1,10 +1,8 @@
 package main
 
-import "fmt"
-
 const portugueseHelloPrefix = "Olá, "
 
-func Hello(name string) string {
+func Hello(name, language string) string {
 	if name == "" {
 		name = "Mundo"
 	}
@@ -12,5 +10,5 @@ func Hello(name string) string {
 }
 
 func main() {
-	fmt.Println(Hello("World"))
+
 }
