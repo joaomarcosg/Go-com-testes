@@ -13,6 +13,6 @@ func TestIteration(t *testing.T) {
 
 func BenchMarkIteration(b *testing.B) {
 	for i := 0; i < b.N; i++ {
-		Iteration("a")
+		Iteration("a", 5)
 	}
 }
