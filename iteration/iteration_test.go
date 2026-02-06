@@ -3,7 +3,7 @@ package iteration
 import "testing"
 
 func TestIteration(t *testing.T) {
-	iterations := Iteration("a")
+	iterations := Iteration("a", 5)
 	expected := "aaaaa"
 
 	if iterations != expected {
